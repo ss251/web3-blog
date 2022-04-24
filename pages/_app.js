@@ -67,7 +67,7 @@ function App({ Component, pageProps }) {
           {account && <p className={accountInfo}>{account}</p>}
         </div>
         <div className={linkContainer}>
-          <Link href="/">
+          <Link href="/create-post">
             <a className={link}>Create Post</a>
           </Link>
         </div>
